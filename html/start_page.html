@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to MediEvil</title>
+  <link rel="stylesheet" href="../styles/styles.css" />
+
+</head>
+<body>
+<h1> Добро пожаловать в MediEvil</h1>
+<div class="form-container" >
+<form class="start-page" action="game.html" method="get">
+    <label class="start-page"> Введите имя игрока </label>
+    <br>
+    <input class="start-page" type="text"  name="player_name" required>
+    <br>
+    <button class="start-page" type="submit" onclick="submitButtonPressed()">Начать игру</button>
+
+    <button class="start-page" type="button" onclick="window.location.href = 'table_of_records.html'">Таблица рекордов</button>
+</form>
+</div>
+<script src="../pagesJS/startPage.js">
+</script>
+</body>
+</html>

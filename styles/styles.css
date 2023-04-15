@@ -1,0 +1,81 @@
+body{
+    font-family: Century;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.form-container{
+    text-align: center;
+    font-family: Century;
+    font-size: 36px;
+}
+
+.form-container input{
+    text-align: center;
+    font-family: Century;
+    margin: 10px;
+    font-size: 36px;
+    background-color: inherit;
+    border-radius: 10px;
+}
+
+p{
+    text-align: center;
+    font-family: Century;
+    font-size: 20px;
+}
+
+.form-container button{
+    font-size: 20px;
+    font-family: Century;
+    border-radius: 10px;
+}
+
+.form-container button {
+    background-color: mintcream;
+    font-size: 30px;
+}
+.form-container button:hover{
+    background-color: sandybrown;
+}
+
+.canvases{
+    text-align: center;
+}
+
+#canvasForHealth{
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.back-button button{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Century;
+    border-radius: 10px;
+    text-align: center;
+    background-color: mintcream;
+}
+
+.back-button button:hover {
+    background-color: sandybrown;
+}
+
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+
+}
+
+th, tr, td{
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2px;
+}
